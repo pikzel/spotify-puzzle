@@ -8,4 +8,3 @@ for i in range(1,n+1):
 songs.sort(key=lambda x: x[1], reverse=True)
 for i in range(m):
 	print(songs[i][2])
-
